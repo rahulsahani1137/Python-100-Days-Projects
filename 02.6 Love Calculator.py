@@ -8,11 +8,12 @@ true_occurance = 0
 love_occurance = 0
 
 for name_char in combined_name:
-    for true_char in "true":
+    #Considering Indian Audiance
+    for true_char in "saccha":
         if name_char == true_char:
             true_occurance += 1
             
-    for love_char in "love":
+    for love_char in "pyaar":
         if name_char == love_char:
             love_occurance += 1
             
